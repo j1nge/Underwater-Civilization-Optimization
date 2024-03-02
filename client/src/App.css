@@ -19,7 +19,7 @@ html, body, #root {
   display: flex;
   justify-content: center;
   padding: 10px;
-  background: #00587a; /* Rich ocean blue for the navbar */
+  background: #0f3057; /* Rich ocean blue for the navbar */
 }
 
 .nav-item {
@@ -56,13 +56,22 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  color: #ffffff; /* Bright ocean blue for headings */
+  color: #ffffff; /* White color for headings */
 }
 
 h2 {
-  color: #00d9ff; /* Consistent theme color for headings */
+  font-size: 3rem;
+  color: #ffffff; /* White color for headings */
 }
+
 
 p {
   font-size: 1.2rem;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for zoom effect */
+  transform-origin: center; /* Ensures zoom effect is centered */
+  margin: 0 10px; /* Adds margin to prevent text touching the edges */
+}
+
+p:hover {
+  transform: scale(1.05); /* Slightly reduced scale to prevent overflow */
 }
