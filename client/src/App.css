@@ -108,3 +108,19 @@ p:hover {
 .details-section .image-container img:hover {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
+#design {
+  text-align: center; /* Centers the text inside the section */
+  font-size: 1.2em; /* Slightly increases the font size; adjust as needed */
+}
+
+#design ul {
+  display: inline-block; /* Allows the list to be centered as a block */
+  text-align: left; /* Aligns the text inside the list to the left */
+}
+
+#design h2 {
+  font-size: 1.5em; /* Increases the size of the heading; adjust as needed */
+}
+#design p {
+  text-decoration: underline; /* Underlines the text */
+}
