@@ -12,16 +12,16 @@ const App = () => {
             </nav>
             <header className="App-header">
                 <h1>Welcome to Atlantis 3005</h1>
-                <p>The desert planet awaits you.</p>
+                <p>The Future of Our Planet</p>
             </header>
             <main>
                 <section id="inspiration">
                     <h2>Inspiration</h2>
-                    <p>Discover the secrets of the desert planet.</p>
+                    <p>We stand on the brink of an unprecedented crisis. The worlds greatest city, New York, is sinking at rapid rate with Lower Manhattan expected to be submerged by 2100. This looming disaster casts a shadow over the world, holding our planet in danger. From waterlogged streets of Venice, to the submerging shores of Bangladesh, all around the world millions suffer from this exponentially increasing threat. As the ground sinks and the seas ascend, we propose a futuristic solution inspired by the past: Atlantis. Underwater cities. While this might seem unfeasible, the truth is, as we move into the future this will be a viable option. But the question remains: where should humanity anchor this civilization. That's where we come in. Harnessing a plethora of a API's to draw real world data combined with our strategic optimization functions, Hill Climbing algorithms, and A* algorithms, our application can effectively find the perfect locations to save us from this global climate crisis.</p>
                 </section>
                 <section id="details">
                     <h2>Details</h2>
-                    <p>Learn about the natives of inspiration and their culture.</p>
+                    <p></p>
                 </section>
                 <section id="design">
                     <h2>Design</h2>
