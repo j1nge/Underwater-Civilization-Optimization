@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css'; // Importing the CSS file for styling
+import pic1 from './sinkingNYC.png';
 
-const App = () => {
+function App() {
     return (
         <div className="App">
             <nav className="navbar">
-                <a href="#inspiration" className="nav-item">Inspiration</a>
-                <a href="#details" className="nav-item">Details</a>
-                <a href="#design" className="nav-item">Design</a>
-                <a href="#demo" className="nav-item">Demo</a>
+                <a href="inspiration" className="nav-item">Inspiration</a>
+                <a href="details" className="nav-item">Details</a>
+                <a href="design" className="nav-item">Design</a>
+                <a href="demo" className="nav-item">Demo</a>
             </nav>
+            <img src={pic1} alt = 'pic1'/>
             <header className="App-header">
                 <h1>Welcome to Atlantis 3005</h1>
                 <p>The Future of Our Planet</p>

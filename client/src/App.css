@@ -43,7 +43,9 @@ html, body, #root {
 .App-header:hover {
   background-color: #0f3057; /* Darker teal for hover effect */
 }
-
+.Logo {
+  background-image: url(./sinkingNYC.png);
+}
 main {
   padding: 20px;
   flex: 1; /* Allows main content to grow and fill available space */
