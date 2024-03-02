@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
 .App {
   text-align: center;
   color: #f0f8ff; /* Alice blue for text, reminiscent of water bubbles */
   background: #0f3057; /* Deep ocean blue for the background */
   font-family: 'Anta', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it takes at least the full height */
 }
 
 .navbar {
@@ -27,17 +35,19 @@
 }
 
 .App-header {
-  background-color: #008891; /* Teal, representing the shallow ocean waters */
+  background-color: #00d9ff; /* Teal, representing the shallow ocean waters */
   padding: 20px;
   transition: background-color 0.5s;
 }
 
 .App-header:hover {
-  background-color: #00707b; /* Darker teal for hover effect */
+  background-color: #0f3057; /* Darker teal for hover effect */
 }
 
 main {
   padding: 20px;
+  flex: 1; /* Allows main content to grow and fill available space */
+  background: linear-gradient(to bottom, #00d9ff, #0f3057); /* Gradient from light blue to dark ocean blue */
 }
 
 section {
@@ -46,7 +56,7 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  color: #00d9ff; /* Bright ocean blue for headings */
+  color: #ffffff; /* Bright ocean blue for headings */
 }
 
 h2 {
