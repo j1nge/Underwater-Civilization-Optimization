@@ -1,4 +1,5 @@
-# Testing monkey boy
+# The Underwater Cavaliers
+
 ## Our project is focused on the pioneering concept of underwater civilization, as a response to the increasing challenges posed by global changes. Recognizing the imperative need for alternative living spaces, our initiative explores the viability of subaqueous habitats for human habitation. At the heart of our project lies the development of an innovative framework designed to identify and evaluate optimal underwater locations for future civilizations. 
 
 ## We employ a multidisciplinary approach, integrating advanced data analytics, marine science, and environmental engineering to assess critical factors such as temperature, depth, proximity to land, and sunlight exposure. These criteria are essential in ensuring the sustainability and livability of underwater environments. Our algorithm meticulously analyzes vast datasets to pinpoint areas that not only promise a conducive living environment but also minimize the ecological footprint on marine ecosystems.
