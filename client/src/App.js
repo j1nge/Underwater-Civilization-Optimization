@@ -38,7 +38,24 @@ const App = () => {
                     </section>
                     <section id="design">
                         <h2>Design</h2>
-                        <p>Your design content here...</p>
+                        <p style={{textDecoration: 'underline'}}>Backend</p>
+                        <li>API: Google Maps</li>
+                        <li>API: Google Elevation</li>
+                        <li>API: Google Place</li>
+                        <li>Dataset: United States Documented Unplugged Orphaned Oil and Gas Well Dataset</li>
+                        <p style={{textDecoration: 'underline'}}><br/><br/>Optimization FIEND Function</p>
+                        <li>F: Food, the number of people that can be fed with fish! Weight = 0.3</li>
+                        <li>I: Infrastructure. Weight = 0.2</li>
+                        <li>E: Elevation, the height under sea level. Weight = 1.0</li>
+                        <li>N: Natural Resources, Oil availability and distance. Weight = 0.25</li>
+                        <li>D: Distance, one coordinate to another. Weight = 0.25</li>
+                        <p style={{textDecoration: 'underline'}}><br/><br/>Frontend</p>
+                        <li>React and Node</li>
+                        <li>FIDI Seaport Climate NYC</li>
+                        <p style={{textDecoration: 'underline'}}><br/><br/>Midend</p>
+                        <li>Flask</li>
+
+
                     </section>
                     <section id="demo">
                         <h2>Demo</h2>
